@@ -7,13 +7,13 @@
     "design-tokens",
     "design-system"
   ],
-  "homepage": "https://github.com/shoveller/style-theme-transformer#readme",
+  "homepage": "https://github.com/shoveller/sd-theme-transformer#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shoveller/style-theme-transformer.git"
+    "url": "git+https://github.com/shoveller/sd-theme-transformer.git"
   },
   "bugs": {
-    "url": "https://github.com/shoveller/style-theme-transformer/issues"
+    "url": "https://github.com/shoveller/sd-theme-transformer/issues"
   },
   "license": "Apache-2.0",
   "dependencies": {
