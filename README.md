@@ -1,5 +1,5 @@
 
-# Plugin for Style-Dictionary.<br />
+# Plugin for Style-Dictionary<br />
 [This repository is based on e.uid's design system offline class](https://github.com/simseonbeom/offline-class/blob/main/build-theme.js)<br />
 This plugin converts design tokens into esm, cjs, css and scss variables.
 
@@ -13,7 +13,7 @@ $ yarn add sd-theme-transformer -D
 
 ## Usage
 
-### Creating configuration file
+### Create a configuration file and load it into the cli 
 
 ```js
 // build-theme.js
