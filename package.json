@@ -1,0 +1,23 @@
+{
+  "name": "sd-theme-transformer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "style-dictionary",
+    "design-tokens",
+    "design-system"
+  ],
+  "homepage": "https://github.com/shoveller/style-theme-transformer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoveller/style-theme-transformer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shoveller/style-theme-transformer/issues"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "style-dictionary": "^3.7.2"
+  }
+}
