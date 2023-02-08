@@ -62,7 +62,7 @@ Create an object for each theme, assuming that various customizations will be ma
 ```js
 // build-theme.js
 const styleDictionary = require('style-dictionary');
-const { makeThemeConfig } = require("./sd-theme-transformer");
+const { makeThemeConfig } = require('sd-theme-transformer');
 
 ['data/global.json', 'data/dark.json', 'data/light.json'].forEach((source) => {
     const SD = styleDictionary.extend(makeThemeConfig({ source }));
