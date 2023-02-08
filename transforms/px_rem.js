@@ -1,18 +1,18 @@
-module.exports.isPx = (/** string */value) => /[\d\.]+px$/.test(value)
+module.exports.isPx = (/** string */ value) => /[\d.]+px$/.test(value)
 
-module.exports.px2rem = (/** number|string */value) => {
-  const baseFontSize = 16;
+module.exports.px2rem = (/** number|string */ value) => {
+  const baseFontSize = 16
   const floatValue = parseFloat(value)
 
   if (isNaN(floatValue)) {
-    return value;
+    return value
   }
 
   if (floatValue === 0) {
-    return 0;
+    return 0
   }
 
-  return floatValue / baseFontSize;
+  return floatValue / baseFontSize
 }
 
 /**
@@ -25,9 +25,9 @@ module.exports.px_rem = {
     if (module.exports.isPx(token.value)) {
       const value = token.value.replace('px', '')
 
-      return `${module.exports.px2rem(value)}rem`;
+      return `${module.exports.px2rem(value)}rem`
     }
 
-    return token.value;
+    return token.value
   },
 }
