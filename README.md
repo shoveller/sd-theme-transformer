@@ -13,7 +13,7 @@ $ yarn add sd-theme-transformer -D
 
 ## Usage
 
-### Create a configuration file and load it into the cli 
+### Creating single theme file 
 
 ```js
 // build-theme.js
