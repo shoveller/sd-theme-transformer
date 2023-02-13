@@ -13,6 +13,11 @@ $ yarn add sd-theme-transformer -D
 
 ## Usage
 
+### Normalize your design token with Token Transformer before using it.
+```shell
+npx token-transformer data/input.json data/global.json global
+```
+
 ### Creating single theme file 
 
 ```js
